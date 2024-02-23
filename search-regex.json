@@ -1,3 +1,4 @@
+// from : https://github.com/dwisiswant0/apkleaks/blob/master/config/regexes.json
 {
 	"Amazon_AWS_Access_Key_ID": "([^A-Z0-9]|^)(AKIA|A3T|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{12,}",
 	"Amazon_AWS_S3_Bucket": [
@@ -62,6 +63,8 @@
 }
 
 
+
+// from : https://github.com/ProngedFork/RegX
 {
     "AWS API Key": "AKIA[0-9A-Z]{16}",
     "AWS ARN": "arn:aws:organizations::\d{12}:account\/o-[a-z0-9]{10,32}\/\d{12}",
@@ -183,7 +186,7 @@
 
 
 
-
+// from : https://github.com/m4ll0k/SecretFinder
 {
 	'google_api'     : r'AIza[0-9A-Za-z-_]{35}',
     'firebase'  : r'AAAA[A-Za-z0-9_-]{7}:[A-Za-z0-9_-]{140}',
